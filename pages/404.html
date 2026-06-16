@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | WMOI</title>
+    <meta
+      name="description"
+      content="The page you are looking for could not be found. Return to the WMOI homepage or contact the team directly."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#69429F" />
+    <link rel="icon" type="image/svg+xml" href="../assets/wmoi-favicon-preview.svg" />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="stylesheet" href="../styles.min.css?v=20260613min" />
+  </head>
+  <body>
+    <main class="content-section">
+      <div class="shell">
+        <div class="note-panel" style="max-width: 760px; margin: 80px auto;">
+          <p class="footer-label">404</p>
+          <img src="../assets/wmoi-lockup-transparent.png?v=20260423a" alt="WMOI logo" style="width:min(100%,320px); height:auto; margin:0 0 28px;" />
+          <h2 data-i18n="title">Page not found.</h2>
+          <p data-i18n="text">The page may have moved or the address may be incorrect.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-preserve-lang data-i18n="home" href="./index.html">Return Home</a>
+            <a class="button button-secondary" data-preserve-lang data-i18n="contact" href="./contact.html">Contact WMOI</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var lang = params.get("lang") || "";
+        if (!lang) {
+          try {
+            lang = localStorage.getItem("wmoi-lang") || "";
+          } catch (_) {
+            lang = "";
+          }
+        }
+        var copy = {
+          en: {
+            title: "Page not found.",
+            text: "The page may have moved or the address may be incorrect.",
+            home: "Return Home",
+            contact: "Contact WMOI"
+          },
+          zh: {
+            title: "页面未找到。",
+            text: "该页面可能已移动，或当前地址不正确。",
+            home: "返回首页",
+            contact: "联系 WMOI"
+          },
+          ja: {
+            title: "ページが見つかりません。",
+            text: "ページが移動されたか、現在のアドレスが正しくない可能性があります。",
+            home: "ホームへ戻る",
+            contact: "WMOI に連絡"
+          },
+          ko: {
+            title: "페이지를 찾을 수 없습니다.",
+            text: "페이지가 이동되었거나 현재 주소가 올바르지 않을 수 있습니다.",
+            home: "홈으로 돌아가기",
+            contact: "WMOI 문의"
+          },
+          th: {
+            title: "ไม่พบหน้านี้",
+            text: "หน้านี้อาจถูกย้าย หรือที่อยู่ปัจจุบันไม่ถูกต้อง",
+            home: "กลับหน้าแรก",
+            contact: "ติดต่อ WMOI"
+          },
+          fr: {
+            title: "Page introuvable.",
+            text: "La page a peut-être été déplacée ou l’adresse actuelle est incorrecte.",
+            home: "Retour à l’accueil",
+            contact: "Contacter WMOI"
+          },
+          es: {
+            title: "Página no encontrada.",
+            text: "Es posible que la página se haya movido o que la dirección actual sea incorrecta.",
+            home: "Volver al inicio",
+            contact: "Contactar con WMOI"
+          }
+        };
+        var normalizedLang = (lang || "").toLowerCase().split("-")[0];
+        var dictionary = copy[normalizedLang] || copy.en;
+
+        document.querySelectorAll("[data-i18n]").forEach(function (node) {
+          var key = node.getAttribute("data-i18n");
+          if (dictionary[key]) {
+            node.textContent = dictionary[key];
+          }
+        });
+
+        if (!lang) {
+          return;
+        }
+
+        document.querySelectorAll("[data-preserve-lang]").forEach(function (link) {
+          var rawHref = link.getAttribute("href") || "";
+          var pathMatch = rawHref.match(/^[^?#]*/);
+          var path = pathMatch ? pathMatch[0] : rawHref;
+          var url = new URL(rawHref, window.location.href);
+          url.searchParams.set("lang", lang);
+          link.setAttribute("href", path + url.search + url.hash);
+        });
+      })();
+    </script>
+  </body>
+</html>

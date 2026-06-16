@@ -1,0 +1,39 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="18" fill="#F7F5FB"/>
+  <g clip-path="url(#left)">
+    <path d="M2 3L30 31" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M7 -2L35 26" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M12 -7L40 21" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M17 -12L45 16" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M22 -17L50 11" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="-3 8L25 36" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="-8 13L20 41" stroke="#67ADAE" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+  <g clip-path="url(#right)">
+    <path d="M29 3L57 31" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M34 -2L62 26" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M39 -7L67 21" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M44 -12L72 16" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M24 8L52 36" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M19 13L47 41" stroke="#CBDD6A" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+  <g clip-path="url(#band)">
+    <rect x="23.8" y="3" width="16.4" height="58" rx="5" transform="rotate(45 23.8 3)" fill="#69429F"/>
+    <path d="M18 1L46 29" stroke="#69429F" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M23 -4L51 24" stroke="#69429F" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M28 -9L56 19" stroke="#69429F" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M33 -14L61 14" stroke="#69429F" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+  <text x="32" y="38.2" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-family="Arial, Helvetica, sans-serif" font-weight="700" transform="rotate(45 32 32)">WMO</text>
+  <defs>
+    <clipPath id="left">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M29 17C29 24.1797 23.1797 30 16 30C8.8203 30 3 24.1797 3 17C3 9.8203 8.8203 4 16 4C23.1797 4 29 9.8203 29 17ZM23 17C23 20.866 19.866 24 16 24C12.134 24 9 20.866 9 17C9 13.134 12.134 10 16 10C19.866 10 23 13.134 23 17Z"/>
+    </clipPath>
+    <clipPath id="right">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M61 17C61 24.1797 55.1797 30 48 30C40.8203 30 35 24.1797 35 17C35 9.8203 40.8203 4 48 4C55.1797 4 61 9.8203 61 17ZM55 17C55 20.866 51.866 24 48 24C44.134 24 41 20.866 41 17C41 13.134 44.134 10 48 10C51.866 10 55 13.134 55 17Z"/>
+    </clipPath>
+    <clipPath id="band">
+      <rect x="23.8" y="3" width="16.4" height="58" rx="5" transform="rotate(45 23.8 3)"/>
+    </clipPath>
+  </defs>
+</svg>

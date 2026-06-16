@@ -1,0 +1,24 @@
+<svg width="680" height="196" viewBox="0 0 680 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M98 12C120 20 139 20 161 12L172 36L166 53C163 60 162 68 162 76V109C162 127 147 149 126 162L98 179L70 162C49 149 34 127 34 109V76C34 68 33 60 30 53L24 36L35 12C57 20 76 20 98 12Z" fill="#F3F2FF"/>
+    <path d="M39 38H157" stroke="#6FDAD1" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M52 61C56 70 58 79 58 89V108C58 122 70 140 89 150L98 155L107 150C126 140 138 122 138 108V89C138 79 140 70 144 61H52Z" fill="#2A2175"/>
+    <path d="M98 68C114.016 68 127 80.9837 127 97C127 113.016 114.016 126 98 126C81.9837 126 69 113.016 69 97C69 80.9837 81.9837 68 98 68Z" stroke="#C93396" stroke-width="4"/>
+    <path d="M81 108L93 96L104 107L122 84" stroke="#F3F2FF" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="81" cy="108" r="4" fill="#C93396"/>
+    <circle cx="93" cy="96" r="4" fill="#C93396"/>
+    <circle cx="104" cy="107" r="4" fill="#C93396"/>
+    <circle cx="122" cy="84" r="4" fill="#C93396"/>
+    <path d="M98 39L103 49H93L98 39Z" fill="#6FDAD1"/>
+    <path d="M66 132C77 139 87 142 98 144C109 142 119 139 130 132" stroke="#C93396" stroke-width="4" stroke-linecap="round"/>
+    <path d="M48 118C61 122 79 125 98 125C117 125 135 122 148 118L144 140C129 149 113 157 98 162C83 157 67 149 52 140L48 118Z" fill="#F3F2FF"/>
+    <path d="M58 122C70 125 84 127 98 127C112 127 126 125 138 122" stroke="#2A2175" stroke-width="2" stroke-linecap="round"/>
+    <text x="98" y="33" text-anchor="middle" fill="#2A2175" font-size="12" font-family="Avenir Next, Arial, sans-serif" font-weight="700" letter-spacing="2.4">WMOI</text>
+  </g>
+  <g fill="#F3F2FF">
+    <text x="210" y="85" font-size="62" font-family="Baskerville, Georgia, serif" font-weight="600" letter-spacing="5">WMOI</text>
+    <text x="211" y="117" font-size="15" font-family="Avenir Next, Arial, sans-serif" letter-spacing="4.6">WORLD MATHEMATICS OLYMPIAD INTERNATIONAL</text>
+  </g>
+  <path d="M211 134H655" stroke="#6FDAD1" stroke-width="2"/>
+  <text x="211" y="160" fill="#D1F752" font-size="15" font-family="Avenir Next, Arial, sans-serif" letter-spacing="2.8">OFFICIAL BILINGUAL PORTAL FOR GLOBAL MATHEMATICAL COMPETITION</text>
+</svg>

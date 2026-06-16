@@ -1,0 +1,70 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="#F7F5FB"/>
+  <circle cx="166" cy="170" r="240" fill="url(#glowA)" opacity="0.22"/>
+  <circle cx="1040" cy="120" r="220" fill="url(#glowB)" opacity="0.18"/>
+  <g transform="translate(86 116)">
+    <g clip-path="url(#left-ring)">
+      <path d="M-30 -10L274 294" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="-9 -31L295 273" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="12 -52L316 252" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="33 -73L337 231" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="54 -94L358 210" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="75 -115L379 189" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="96 -136L400 168" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="117 -157L421 147" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="138 -178L442 126" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="159 -199L463 105" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="-51 11L253 315" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+      <path d="-72 32L232 336" stroke="#67ADAE" stroke-width="15" stroke-linecap="round"/>
+    </g>
+    <g clip-path="url(#right-ring)">
+      <path d="M238 -10L542 294" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="259 -31L563 273" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="280 -52L584 252" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="301 -73L605 231" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="322 -94L626 210" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="343 -115L647 189" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="364 -136L668 168" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="385 -157L689 147" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="406 -178L710 126" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="217 11L521 315" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+      <path d="196 32L500 336" stroke="#CBDD6A" stroke-width="15" stroke-linecap="round"/>
+    </g>
+    <g clip-path="url(#band)">
+      <rect x="245" y="18" width="98" height="270" rx="18" transform="rotate(45 245 18)" fill="#69429F"/>
+      <path d="M160 -18L464 286" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M181 -39L485 265" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M202 -60L506 244" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M223 -81L527 223" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M244 -102L548 202" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M265 -123L569 181" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+      <path d="M286 -144L590 160" stroke="#69429F" stroke-width="15" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(294 156) rotate(45)">
+      <text x="0" y="0" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle" dominant-baseline="central">WMO</text>
+    </g>
+  </g>
+  <g fill="#69429F">
+    <text x="650" y="265" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="700" letter-spacing="0.02em">WMO</text>
+    <text x="662" y="388" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="400" letter-spacing="0.04em">INTERNATIONAL</text>
+  </g>
+  <defs>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(166 170) rotate(90) scale(240)">
+      <stop stop-color="#67ADAE"/>
+      <stop offset="1" stop-color="#67ADAE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 120) rotate(90) scale(220)">
+      <stop stop-color="#CBDD6A"/>
+      <stop offset="1" stop-color="#CBDD6A" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="left-ring">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M278 150C278 205.228 233.228 250 178 250C122.772 250 78 205.228 78 150C78 94.7715 122.772 50 178 50C233.228 50 278 94.7715 278 150ZM232 150C232 179.823 207.823 204 178 204C148.177 204 124 179.823 124 150C124 120.177 148.177 96 178 96C207.823 96 232 120.177 232 150Z"/>
+    </clipPath>
+    <clipPath id="right-ring">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M500 150C500 205.228 455.228 250 400 250C344.772 250 300 205.228 300 150C300 94.7715 344.772 50 400 50C455.228 50 500 94.7715 500 150ZM454 150C454 179.823 429.823 204 400 204C370.177 204 346 179.823 346 150C346 120.177 370.177 96 400 96C429.823 96 454 120.177 454 150Z"/>
+    </clipPath>
+    <clipPath id="band">
+      <rect x="245" y="18" width="98" height="270" rx="18" transform="rotate(45 245 18)"/>
+    </clipPath>
+  </defs>
+</svg>

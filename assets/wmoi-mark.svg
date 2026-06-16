@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#F3F2FF"/>
+  <path d="M256 52C314 73 364 73 422 52L450 116L434 160C427 179 424 200 424 222V310C424 357 385 414 330 447L256 492L182 447C127 414 88 357 88 310V222C88 200 85 179 78 160L62 116L90 52C148 73 198 73 256 52Z" fill="#4A3BB2"/>
+  <path d="M102 122H410" stroke="#6FDAD1" stroke-width="8" stroke-linecap="round"/>
+  <path d="M136 184C145 207 150 232 150 258V308C150 344 181 390 230 418L256 433L282 418C331 390 362 344 362 308V258C362 232 367 207 376 184H136Z" fill="#F3F2FF"/>
+  <path d="M256 202C299.078 202 334 236.922 334 280C334 323.078 299.078 358 256 358C212.922 358 178 323.078 178 280C178 236.922 212.922 202 256 202Z" stroke="#C93396" stroke-width="10"/>
+  <path d="M211 311L243 279L271 307L319 247" stroke="#2A2175" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="211" cy="311" r="10" fill="#C93396"/>
+  <circle cx="243" cy="279" r="10" fill="#C93396"/>
+  <circle cx="271" cy="307" r="10" fill="#C93396"/>
+  <circle cx="319" cy="247" r="10" fill="#C93396"/>
+  <path d="M256 124L270 151H242L256 124Z" fill="#6FDAD1"/>
+  <path d="M170 374C198 391 225 401 256 404C287 401 314 391 342 374" stroke="#C93396" stroke-width="10" stroke-linecap="round"/>
+  <path d="M126 338C161 348 210 356 256 356C302 356 351 348 386 338L376 396C338 420 299 439 256 452C213 439 174 420 136 396L126 338Z" fill="#2A2175"/>
+  <path d="M151 349C181 356 218 361 256 361C294 361 331 356 361 349" stroke="#F3F2FF" stroke-width="4" stroke-linecap="round"/>
+  <text x="256" y="108" text-anchor="middle" fill="#F3F2FF" font-size="38" font-family="Avenir Next, Arial, sans-serif" font-weight="700" letter-spacing="4">WMOI</text>
+</svg>

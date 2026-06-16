@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#F3F2FF"/>
+  <path d="M32 7C39.25 9.625 45.5 9.625 52.75 7L56.25 15L54.25 20.5C53.375 22.875 53 25.5 53 28.25V39.25C53 45.125 48.125 52.25 41.25 56.375L32 62L22.75 56.375C15.875 52.25 11 45.125 11 39.25V28.25C11 25.5 10.625 22.875 9.75 20.5L7.75 15L11.25 7C18.5 9.625 24.75 9.625 32 7Z" fill="#4A3BB2"/>
+  <path d="M13 15.25H51" stroke="#6FDAD1" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M17.25 22.75C18.375 25.625 19 28.75 19 32V38.5C19 42.875 22.875 48.5 29 52.125L32 54L35 52.125C41.125 48.5 45 42.875 45 38.5V32C45 28.75 45.625 25.625 46.75 22.75H17.25Z" fill="#F3F2FF"/>
+  <path d="M32 25C37.5228 25 42 29.4772 42 35C42 40.5228 37.5228 45 32 45C26.4772 45 22 40.5228 22 35C22 29.4772 26.4772 25 32 25Z" stroke="#C93396" stroke-width="2.6"/>
+  <path d="M26.5 38.5L30.5 34.5L34 38L40 30.75" stroke="#2A2175" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26.5" cy="38.5" r="1.5" fill="#C93396"/>
+  <circle cx="30.5" cy="34.5" r="1.5" fill="#C93396"/>
+  <circle cx="34" cy="38" r="1.5" fill="#C93396"/>
+  <circle cx="40" cy="30.75" r="1.5" fill="#C93396"/>
+  <path d="M32 15.75L33.75 19H30.25L32 15.75Z" fill="#6FDAD1"/>
+  <text x="32" y="13" text-anchor="middle" fill="#F3F2FF" font-size="5.5" font-family="Avenir Next, Arial, sans-serif" font-weight="700" letter-spacing="1">WMOI</text>
+</svg>

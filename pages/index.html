@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official multilingual portal for an international mathematics olympiad, designed for global academic trust, school coordination, and participation inquiries."
+    />
+    <title>WMOI | WMO International</title>
+    <meta name="theme-color" content="#69429F" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WMOI | WMO International" />
+    <meta
+      property="og:description"
+      content="Official multilingual portal for an international mathematics olympiad, designed for global academic trust, school coordination, and participation inquiries."
+    />
+    <meta property="og:url" content="http://www.wmoi.org/pages/index.html" />
+    <meta property="og:image" content="http://www.wmoi.org/assets/wmoi-lockup-transparent.png?v=20260423a" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WMOI | WMO International" />
+    <meta
+      name="twitter:description"
+      content="Official multilingual portal for an international mathematics olympiad, designed for global academic trust, school coordination, and participation inquiries."
+    />
+    <meta name="twitter:image" content="http://www.wmoi.org/assets/wmoi-lockup-transparent.png?v=20260423a" />
+    <link rel="canonical" href="http://www.wmoi.org/pages/index.html" />
+    <link rel="icon" type="image/svg+xml" href="../assets/wmoi-favicon-preview.svg" />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="preconnect" href="https://wmo.mochance.xyz" />
+    <link rel="dns-prefetch" href="https://wmo.mochance.xyz" />
+    <link rel="stylesheet" href="../styles.min.css?v=20260613min" />
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#page-root">Skip to content</a>
+    <div id="site-header"></div>
+    <main id="page-root"></main>
+    <div id="site-footer"></div>
+    <script>
+      // 按「URL ?lang → 本地偏好 → 浏览器语言」选定语言,只加载对应语言的内容文件
+      (function () {
+        var SUPPORTED = ["en", "zh", "ja", "ko", "th", "fr", "es"];
+        function pick() {
+          try {
+            var fromUrl = String(new URLSearchParams(location.search).get("lang") || "").toLowerCase();
+            if (SUPPORTED.indexOf(fromUrl) >= 0) return fromUrl;
+          } catch (_) {}
+          try {
+            var stored = localStorage.getItem("wmoi-lang") || "";
+            if (SUPPORTED.indexOf(stored) >= 0) return stored;
+          } catch (_) {}
+          var navLangs = navigator.languages || [navigator.language];
+          for (var i = 0; i < navLangs.length; i++) {
+            var norm = String(navLangs[i] || "").toLowerCase().split("-")[0];
+            if (SUPPORTED.indexOf(norm) >= 0) return norm;
+          }
+          return "en";
+        }
+        window.__WMOI_LANG = pick();
+        document.write('<script src="../data/lang/content.' + window.__WMOI_LANG + '.js?v=20260613split"><\/script>');
+      })();
+    </script>
+    <script src="../app.min.js?v=20260613min"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.DS_Store
+backup/
+agent/
+local_doc/
+wmo-1/
+wmo-2/
+img/*_original.jpg
+img/origin-pic/
+img/cropped/
+img/back-pic/
+.agent/
+
+# 成果页原始素材(本地做拼接图用，不入库；线上只用 composites/）
+img/results/*/
+!img/results/composites/
+img/results/*.docx
+.tmp/
+.playwright-mcp/
+.wrangler/

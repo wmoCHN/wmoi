@@ -1,0 +1,15 @@
+{
+  "name": "WMOI",
+  "short_name": "WMOI",
+  "start_url": "/pages/index.html",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#69429F",
+  "icons": [
+    {
+      "src": "/assets/wmoi-favicon-preview.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

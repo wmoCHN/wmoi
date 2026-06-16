@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to WMOI 404</title>
+    <meta http-equiv="refresh" content="0; url=./pages/404.html" />
+    <script>
+      (function () {
+        var target = new URL("./pages/404.html", window.location.href);
+        target.search = window.location.search;
+        target.hash = window.location.hash;
+        window.location.replace(target.toString());
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="./pages/404.html">WMOI 404</a>...</p>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+/app.min.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/styles.min.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/app.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/styles.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/wmoi-favicon-preview.svg
+  Cache-Control: public, max-age=604800
+
+/assets/wmoi-favicon.svg
+  Cache-Control: public, max-age=604800
+
+/assets/wmoi-mark.svg
+  Cache-Control: public, max-age=604800
+
+/assets/wmoi-lockup.svg
+  Cache-Control: public, max-age=604800
+
+/assets/wmoi-lockup-light.svg
+  Cache-Control: public, max-age=604800
+
+/assets/wmoi-lockup-transparent.png
+  Cache-Control: public, max-age=604800
+
+/site.webmanifest
+  Cache-Control: public, max-age=86400
+
+/data/lang/content.en.js
+  Cache-Control: no-cache
+
+/data/lang/content.zh.js
+  Cache-Control: no-cache
+
+/data/lang/content.ja.js
+  Cache-Control: no-cache
+
+/data/lang/content.ko.js
+  Cache-Control: no-cache
+
+/data/lang/content.th.js
+  Cache-Control: no-cache
+
+/data/lang/content.fr.js
+  Cache-Control: no-cache
+
+/data/lang/content.es.js
+  Cache-Control: no-cache
+
+/data/content.js
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/pages/index.html
+  Cache-Control: no-cache
+
+/pages/about.html
+  Cache-Control: no-cache
+
+/pages/trust.html
+  Cache-Control: no-cache
+
+/pages/news.html
+  Cache-Control: no-cache
+
+/pages/contact.html
+  Cache-Control: no-cache

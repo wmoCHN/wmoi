@@ -869,13 +869,13 @@ window.SITE_CONTENT = {
         cards: [
           {
             title: {
-              en: "18 years specializing in competition-based education, with over 1 million participants",
-              zh: "深耕竞赛教育赛道18年，赛事累计参与人次突破1,000,000",
-              ja: "競技教育の道を18年、大会への累計参加者数は100万人を突破",
-              ko: "경시 교육 분야 18년, 대회 누적 참가 인원 1,000,000명 돌파",
-              th: "เดินบนเส้นทางการศึกษาเชิงแข่งขันมา 18 ปี ยอดผู้เข้าร่วมสะสมทะลุ 1,000,000 ครั้ง",
-              fr: "18 années consacrées à l’éducation par la compétition, avec plus de 1 000 000 de participations cumulées",
-              es: "18 años en la educación por competición, con más de 1 000 000 de participaciones acumuladas",
+              en: "18 years specializing in competition-based education, with over 50 million participants",
+              zh: "深耕竞赛教育赛道18年，赛事累计参与人次突破50,000,000",
+              ja: "競技教育の道を18年、大会への累計参加者数は5000万人を突破",
+              ko: "경시 교육 분야 18년, 대회 누적 참가 인원 50,000,000명 돌파",
+              th: "เดินบนเส้นทางการศึกษาเชิงแข่งขันมา 18 ปี ยอดผู้เข้าร่วมสะสมทะลุ 50,000,000 ครั้ง",
+              fr: "18 années consacrées à l’éducation par la compétition, avec plus de 50 000 000 de participations cumulées",
+              es: "18 años en la educación por competición, con más de 50 000 000 de participaciones acumuladas",
             },
           },
           {
